@@ -28,13 +28,13 @@ namespace HealHub.Controller
             return _service.createForm(form);
         }
 
-        [HttpPut("/update/{id}")]
+        [HttpPut("update/{id}")]
         public Result<Form> updateForm([FromRoute]int id, Form form)
         {
             return _service.updateForm(id, form);
         }
 
-        [HttpDelete("/delete/{id}")]
+        [HttpDelete("delete/{id}")]
         public Result<bool> deleteForm([FromRoute]int id)
         {
             return _service.deleteForm(id);
