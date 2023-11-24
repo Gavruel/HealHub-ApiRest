@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'HealHub-ApiRest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D661D2D828E44096A9B761BC131ABF5F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AC7F2E098AFE4D6BAB09B40EDCCCA207 }}
           package: .
